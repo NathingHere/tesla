@@ -1,0 +1,130 @@
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+
+body {
+font-family: 'Miriam Libre', sans-serif;
+}
+
+#logo_foto {
+    width: 40%;
+}
+
+/*MENU*/
+
+.anchototal_menu {
+    position: fixed;
+    z-index: 1;
+}
+
+#logo {
+    position: absolute;
+    width: 2.9em;
+    margin-left: 2%;
+}
+
+.izquierda>a>p {
+    text-align: center;
+    margin-bottom: 0.5%;
+    margin-top: 0%;
+    font-weight: bold;
+    width: 100%;
+}
+
+.izquierda {
+    width: 100%;
+}
+
+.derecha {
+    width: 100%;
+    text-align: center;
+}
+
+.derecha>a {
+    margin-right: 5%;
+}
+
+#img_cabecera {
+    display: none;
+}
+
+header {
+    background-image: url("../img/ideas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 20%;
+    margin-top: 30%;
+    margin-bottom: 1%;
+    filter: drop-shadow(5px 5px 9px black);
+}
+
+#logocompleto {
+    text-shadow: 5px 5px 9px black;
+}
+
+header>h1 {
+    font-size: 3em;
+    margin-top: 0;
+    padding-bottom:15%;
+    margin-bottom: 1%;
+
+}
+
+#video_header {
+    display: none;
+}
+
+.play_top {
+    display: none;
+}
+
+#Exhibition {
+    margin-top: 10%;
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 10%;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.L-tercio {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.M-mitad {
+    width: 47.5%;
+    margin-bottom: 10%;
+}
+
+.iz {
+    margin-right: 5%;
+}
+
+input {
+    margin-bottom: 1%;
+}
+
+.derecha_footer>a {
+    margin-right: 5%;
+}
+
+.izquierda_footer>a {
+    margin-right: 5%;
+}
+
+article {
+    margin-bottom: 5%;
+}
+
+#videomain {
+    display: none;
+}
+
+}

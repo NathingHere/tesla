@@ -1,0 +1,82 @@
+body {
+    --brightcolor: #94CDD6;
+    --darkcolor: #1A5B6D;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+}
+
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: var(--darkcolor);
+    color: var(--brightcolor);  
+}
+
+a {
+    text-decoration: none;
+    color: var(--brightcolor);
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    color: var(--brightcolor);
+}
+
+#Exhibition>h2, h3 {
+    text-align: center;
+    color: var(--brightcolor);
+}
+
+#Location>h2 {
+    text-align: center;
+    color: var(--brightcolor);
+}
+
+#Visit>h2, h3 {
+    text-align: center;
+    color: var(--brightcolor);
+}
+
+#Contact>h2 {
+    text-align: center;
+    color: var(--brightcolor);
+}
+
+.anchototal {
+    width: 100%;
+}
+
+#phone, #email {
+    width: 98%;
+}
+
+#boton {
+    color: var(--brightcolor);
+    background-color: var(--darkcolor);
+    padding: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-weight: bold;
+    border-radius: 10%;
+    border-style: none;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    background-color: var(--darkcolor);
+}
+
+

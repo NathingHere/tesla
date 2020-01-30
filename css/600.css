@@ -1,0 +1,87 @@
+@media screen and (max-width: 600px) {
+
+    body {
+        font-family: sans-serif;
+    }
+
+    /*MENU*/
+    
+    .anchototal_menu {
+        position: fixed;
+    }
+    
+    #logo {
+        position: absolute;
+        width: 2.1em;
+        margin-left: 2%;
+    }
+    
+    .izquierda>a>p {
+        text-align: center;
+        margin-bottom: 0.5%;
+        margin-top: 0%;
+        font-weight: bold;
+        width: 100%;
+    }
+    
+    .izquierda {
+        width: 100%;
+    }
+    
+    .derecha {
+        margin-left: 3%;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .derecha>a {
+        margin-right: 5%;
+    }
+
+    /*MAIN*/
+
+    #play {
+        margin-left: 2.5%;
+        margin-top: 0;
+    }
+
+    header>h1>img {
+        width: 25%;
+    }
+
+    header {
+        margin-bottom: 20%;
+    }
+
+    #video_header {
+        display: none;
+    }
+
+    #bombilla {
+        margin-bottom: 5%;
+    }
+
+    #Exhibition {
+        margin-bottom: 20%;
+    }
+
+    #Location {
+        margin-bottom: 20%;
+    }
+
+    #Visit {
+        margin-bottom: 20%;
+    }
+
+    input, textarea {
+        margin-bottom: 3%;
+    }
+
+    footer {
+        display: none;
+    }
+
+    #videomain {
+        display: none;
+    }
+}
