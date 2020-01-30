@@ -39,6 +39,10 @@
     }
 
     /*MAIN*/
+    
+    .play_bottom {
+        display: none;
+    }
 
     #play {
         margin-left: 2.5%;
